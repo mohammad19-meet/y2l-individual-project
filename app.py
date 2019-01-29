@@ -41,7 +41,7 @@ def todo():
 @app.route('/submit', methods =["GET","POST"])
 def submit():
     if request.method =="GET":
-		return render_template('submit.html')
+        return render_template("submit.html")
     else:
         name = request.form['name']
         author = request.form['author']
