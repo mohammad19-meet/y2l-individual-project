@@ -67,7 +67,7 @@ def submit():
 @app.route('/submit_hotel', methods =["GET","POST"])
 def submit_hotel():
     if request.method =="GET":
-		return render_template('submit_hotel.html')
+        return render_template('submit_hotel.html')
     else:
         name = request.form['name']
         hotel_date = request.form['hotel_date']
