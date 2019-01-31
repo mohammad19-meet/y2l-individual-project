@@ -46,7 +46,7 @@ def submit():
         name = request.form['name']
         author = request.form['author']
         date = request.form['date']
-        short_desc = request.form['shot_desc']
+        short_desc = request.form['short_desc']
         photo = request.form['photo']
         long_desc = request.form['long_desc']
         bio = request.form['bio']
